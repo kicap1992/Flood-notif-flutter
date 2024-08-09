@@ -1,16 +1,10 @@
-# flood_app
+# Flood Notification App (Esp8266 Controller)
+### esp8266 connected to 2 water level sensor and a ultrasonic sensor.
+### if the water reach the first water level sensor then "warning",
+### If reach second water level then danger and the water is measure by ultrasonic
+### the value is send to node js server
+### then it will be display to a flutter app.
 
-A new Flutter project.
+![alt text](image.png)
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![alt text](image-1.png)
